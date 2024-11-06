@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.21.1",
+    "openai": "^4.71.0",
+    "systeminformation": "^5.23.5"
+  }
+}

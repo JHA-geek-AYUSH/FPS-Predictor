@@ -1,0 +1,87 @@
+/* index.css */
+
+:root {
+  --primary-color: #1e90ff; /* Bright blue for accents */
+  --secondary-color: #1c1c1c; /* Dark gray for background */
+  --card-color: #2c2c2c; /* Slightly lighter dark gray for cards */
+  --text-color: #e0e0e0; /* Light gray for text */
+  --text-muted: #b0b0b0; /* Muted gray for less important text */
+  --border-radius: 8px;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for the entire body */
+  color: var(--text-color);
+}
+
+.widget-container {
+  background-color: var(--card-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  padding: 24px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.widget-heading {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.widget-label {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-color);
+  margin: 10px 0 5px;
+}
+
+.widget-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444; /* Dark border */
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: #333; /* Dark input background */
+}
+
+.widget-input::placeholder {
+  color: var(--text-muted);
+}
+
+.widget-button {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: var(--border-radius);
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.widget-button:hover {
+  background-color: #1c86e6; /* Darker blue on hover */
+  transform: translateY(-1px); /* Subtle lift effect */
+}
+
+.widget-section-heading {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.widget-text-muted {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 3px 0;
+  padding-left: 10px;
+}
